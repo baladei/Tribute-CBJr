@@ -3,6 +3,10 @@ html {
     color: #aaa;
 }
 
+img {
+    border: 10px solid #333;
+}
+
 .container {
     height: 100%;
     margin: 30px 50px;
@@ -40,7 +44,7 @@ html {
 }
 
 h2 {
-    color: #444;
+    color: #fff;
     font-family: Verdana;
 }
 
@@ -56,11 +60,11 @@ h2 {
 
 .quote blockquote {
     background-color: #333;
-    color: #fff;
+    color: #ccc;
     font-style: italic;
-    font-size: 50px;
+    font-weight: bolder;
+    font-size: 40px;
     margin: 50px 30px;
-    text-align: center;
     border-radius: 5px;
     padding: 25px 40px;
 }
@@ -68,6 +72,8 @@ h2 {
 .quote p{
     text-align: left;
     font-size: 30px;
+    padding-top: 30px;
+    font-weight: normal;
 }
 
 .curiosities {
@@ -76,4 +82,27 @@ h2 {
     line-height: 50px;
     border-top: 1px dashed #333;
     border-bottom: 1px dashed #333;
+}
+
+.featured-image-2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.featured-image-2 img {
+    height: 600px;
+    width: 800px;
+    text-align: center;
+}
+
+.more-info {
+    margin: 30px;
+}
+
+.more-info a {
+    text-decoration: none;
+    background-color: #333;
+    color: #aaa;
+    padding: 10px;
+    border-radius: 12px;
 }
